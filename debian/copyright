@@ -1,0 +1,26 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: firestarter
+Source: https://github.com/tud-zih-energy/FIRESTARTER
+
+Files: debian
+Copyright: 2025 Slimbook <dev@slimbook.es>
+License: GPL-2
+
+Files: firestarter
+Copyright: 2020-2023 TU Dresden, Center for Information Services and High Performance Computing
+License: GPL-3
+
+Files: pagmo2
+License: GPL-3
+
+Files: asmjit
+License: zlib
+
+Files: hwloc
+License: BSD
+
+Files: cxxopts
+License: MIT
+
+Files: nitro
+License: BSD
