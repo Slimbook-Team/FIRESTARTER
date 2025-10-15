@@ -2,12 +2,12 @@ Source: firestarter
 Section: utils
 Priority: optional
 Maintainer: Slimbook <dev@slimbook.com>
-Build-Depends: debhelper-compat (=13), cmake, make, g++
+Build-Depends: debhelper-compat (=13), cmake, make, g++, git
 Standards-Version: 4.6.9
 Homepage: https://github.com/Slimbook-Team/FIRESTARTER
 
 Package: firestarter
-Architecture: x86-64
+Architecture: amd64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: A Processor Stress Test Utility
  FIRESTARTER maximizes the energy consumption of 64-Bit x86 processors by generating heavy load on the execution units as well as transferring data between the cores and multiple levels of the memory hierarchy.

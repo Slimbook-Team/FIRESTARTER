@@ -7,3 +7,5 @@
 %:
 	dh $@
 	
+override_dh_auto_configure:
+	dh_auto_configure -- -D_FIRESTARTER_VERSION_STRING="2.2" -D_FIRESTARTER_BUILD_YEAR="2025"
